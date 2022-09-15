@@ -1,5 +1,5 @@
 body {
-  font-family: "ABCRepro-Medium", Helvetica, Arial, sans-serif;
+  font-family: "ABCRepro-Medium",  "ABCRepro-MediumItalic", Helvetica, Arial, sans-serif;
 }
 
 .main {
@@ -22,6 +22,9 @@ body {
   gap: 5px;
   align-items: baseline;
   cursor: pointer;
+}
+.list__item__header:hover{
+  font-family: "ABCRepro-MediumItalic";
 }
 
 .list__item__artist {
